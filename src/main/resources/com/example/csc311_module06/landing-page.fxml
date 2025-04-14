@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="7.0" layoutY="83.0" prefHeight="234.0" prefWidth="597.0" text="YOU'VE SUCCESSFULLY REGISTERED">
+         <font>
+            <Font name="Microsoft JhengHei Light" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

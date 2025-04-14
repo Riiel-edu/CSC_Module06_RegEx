@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="658.0" layoutY="-3.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-height: 0; -fx-arc-width: 0;" width="500.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" height="525.0" layoutX="25.0" layoutY="75.0" stroke="BLACK" strokeType="INSIDE" style="-fx-arc-height: 0; -fx-arc-width: 0;" width="450.0">
+         <fill>
+            <RadialGradient centerX="0.523230096935171" centerY="0.7462121573361484" focusAngle="55.8" focusDistance="-1.0" radius="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.7629629373550415" green="1.0" blue="0.7906172871589661" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.522824409939927">
+                     <color>
+                        <Color red="0.9333333373069763" green="1.0" blue="0.9377777576446533" />
+                     </color>
+                  </Stop>
+                  <Stop offset="0.7755079933033516">
+                     <color>
+                        <Color red="0.6296296119689941" green="1.0" blue="0.7777777910232544" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.7281091809272766" green="0.9684210419654846" blue="0.8763014674186707" />
+                     </color>
+                  </Stop>
+               </stops>
+            </RadialGradient>
+         </fill>
+      </Rectangle>
+      <Label layoutX="144.0" layoutY="14.0" text="REGISTER HERE" textFill="#031000">
+         <font>
+            <Font name="Tw Cen MT Condensed Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="102.0" prefHeight="18.0" prefWidth="90.0" text="First Name">
+         <font>
+            <Font name="Eras Medium ITC" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="176.0" prefHeight="18.0" prefWidth="90.0" text="Last Name">
+         <font>
+            <Font name="Eras Medium ITC" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="251.0" prefHeight="18.0" prefWidth="90.0" text="Date of Birth">
+         <font>
+            <Font name="Eras Medium ITC" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="328.0" prefHeight="18.0" prefWidth="60.0" text="Email">
+         <font>
+            <Font name="Eras Medium ITC" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="401.0" prefHeight="18.0" prefWidth="60.0" text="ZIP Code">
+         <font>
+            <Font name="Eras Medium ITC" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
